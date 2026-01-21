@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Romantic';
+  src: url(./font/Chandia_PERSONAL_USE_ONLY.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-romantic{
+  /*font-family: 'Romantic';*/
+  font-size: 50px;
+}
+
+.font-romantic-phone{
+  /*font-family: 'Romantic';*/
+  font-size: 40px;
+}
+
+#divBackground {
+  height: 100dvh;
+  background-image: url('./imgs/ChatGPT\ Image\ 21\ de\ jan.\ de\ 2026\,\ 12_09_53.png');
+  background-size: cover;
+  position: relative;
+}
+
+#divBackgroundChild {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(40px) grayscale(50%);
+  -webkit-backdrop-filter: blur(90px) grayscale(50%);
+  /* Essencial para Safari */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#divBackgroundChildPhone {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(40px) grayscale(50%);
+  -webkit-backdrop-filter: blur(90px) grayscale(50%);
+}
+
+#divRow {
+  width: 1000px;
+  height: 600px;
+  box-shadow: 0px 0px 300px #fee55a;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.799); 
+  color: #ffc124;
+}
+
+#divRowPhone {
+  box-shadow: 0px 0px 50px #fee55a15;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.799); 
+  color: #ffc124;
+}
+
+#divFoto {
+  background-image: url(imgs/ChatGPT\ Image\ 21\ de\ jan.\ de\ 2026\,\ 12_09_53.png);
+  background-position: center;
+  background-size: 100%;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+#divTexto{
+  border-radius: 20px;  
+  animation: slideEntradaLeftToRight 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+#divTextoPhone{
+  border-radius: 20px;  
+  animation: slideEntradaUpToDown 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.borda-dourada{
+  border-color: #ffd70c !important;
+}
+
+.bloco-rolavel {
+  height: 300px; /* Altura limite do bloco */
+  width: 405px;  /* Largura opcional */
+  border: 1px solid #ccc; /* Borda para visualizar o bloco */
+  padding: 10px;
+  overflow-y: auto; /* Adiciona rolagem vertical automaticamente */
+  scrollbar-color: #ffc124 #e0e0e000; /* Cor do 'polegar' e cor do 'trilho' */
+  scrollbar-width: thin; 
+}
+
+.bloco-rolavel-phone {
+  height: 180px; /* Altura limite do bloco */
+  width: 335px;  /* Largura opcional */
+  border: 1px solid #ccc; /* Borda para visualizar o bloco */
+  padding: 10px;
+  overflow-y: auto; /* Adiciona rolagem vertical automaticamente */
+  scrollbar-color: #ffc124 #e0e0e000; /* Cor do 'polegar' e cor do 'trilho' */
+  scrollbar-width: thin; 
+}
+
+@keyframes slideEntradaLeftToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px); /* Começa 100px à esquerda */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);    /* Para na posição original */
+  }
+}
+
+@keyframes slideEntradaUpToDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px); /* Começa 100px à esquerda */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);    /* Para na posição original */
+  }
+}
