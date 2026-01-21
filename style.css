@@ -40,6 +40,10 @@
   -webkit-backdrop-filter: blur(90px) grayscale(50%);
 }
 
+.cor-golden{
+  color: #ffc124;
+}
+
 #divRow {
   width: 1000px;
   height: 600px;
