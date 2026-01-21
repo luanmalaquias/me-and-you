@@ -6,13 +6,15 @@
 }
 
 .font-romantic{
-  /*font-family: 'Romantic';*/
+  font-family: 'Romantic';
   font-size: 50px;
+  color: #ffc124;
 }
 
 .font-romantic-phone{
-  /*font-family: 'Romantic';*/
+  font-family: 'Romantic';
   font-size: 40px;
+  color: #ffc124;
 }
 
 #divBackground {
